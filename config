@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[http]
+	sslVerify = false
+[remote "origin2"]
+	url = https://github.com/iam1zyt/my-test-vue.git
+	fetch = +refs/heads/*:refs/remotes/origin2/*
+[remote "origin"]
+	url = https://cd.uxsino.com:10943/zeng_yuting/mytestproject
+	fetch = +refs/heads/*:refs/remotes/origin/*
